@@ -1,50 +1,75 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Sudoku Solver med Backtracking
 
-Currently, two official plugins are available:
+## Projektbeskrivelse
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Denne applikation er en interaktiv Sudoku-løser, der demonstrerer anvendelsen af en **backtracking-algoritme** til at løse Sudoku-brætter. Projektet er udviklet som en del af eksamen i valgfaget **Datastrukturer og algoritmer - sat i spil**.
 
-## Expanding the ESLint configuration
+Applikationen giver brugeren mulighed for at:
+- Generere nye Sudoku-brætter.
+- Justere animationshastigheden.
+- Observere den trinvise løsning af Sudoku med backtracking-algoritmen.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## Teknologier
+- **Frameworks og biblioteker**: React, TypeScript, Tailwind CSS.
+- **Animation og interaktivitet**: Bruger HTML, CSS og JavaScript til animationer og brugerinteraktion.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
+[kørende applikation](image-1.png)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Rapport
+Rapporten beskriver projektet på 3-5 sider og inkluderer:
+- Kort beskrivelse af projektet.
+- Oversigt over algoritmer og datastrukturer.
+- Pseudokode for algoritmen.
+- Kompleksitetsanalyse (tid og plads).
+- Kilder og inspiration.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+
+## Sådan kører du projektet lokalt
+
+1. **Klon repository**:
+   ```bash
+   git clone <repository-url>
+   ```
+2. **Naviger til projektmappen**:
+   ```bash
+   cd <projekt-mappe>
+   ```
+3. **Installer afhængigheder**:
+   ```bash
+   npm install
+   ```
+4. **Start udviklingsserveren**:
+   ```bash
+   npm start
+   ```
+
+Applikationen vil nu køre lokalt på [http://localhost:3000](http://localhost:3000).
+
+---
+
+## Deployment
+Applikationen er deployet og tilgængelig her:
+[Deployet version](<indsæt-url>)
+
+---
+
+## Kompleksitetsanalyse
+- **Tid**: \( O(9^n) \), hvor \( n \) er antallet af tomme felter.
+- **Rum**: \( O(n) \), hvor \( n \) er dybden af rekursion.
+
+---
+
+## Inspiration og referencer
+- [Wikipedia: Backtracking](https://en.wikipedia.org/wiki/Backtracking)
+- Dokumentation og videoer fra kurset **Datastrukturer og algoritmer**.
+
+---
+
+## Om udvikleren
+**Udvikler**: Omar Naifeh | omar1907
