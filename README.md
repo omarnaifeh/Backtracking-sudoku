@@ -43,7 +43,7 @@ Applikationen vil nu køre lokalt på [http://localhost:3000](http://localhost:3
 
 ## Deployment
 Applikationen er deployet og tilgængelig her:
-[Deployet version](<indsæt-url>)
+[Deployet version](<https://backtracking-sudoku.vercel.app/>)
 
 
 ## Om udvikleren
