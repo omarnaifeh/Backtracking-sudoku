@@ -132,7 +132,7 @@ const App: React.FC = () => {
                 type="text"
                 value={cell || ""}
                 readOnly
-                className={`sudoku-cell w-12 h-12 text-center border border-gray-700 focus:outline-none ${
+                className={`sudoku-cell w-12 h-12 text-center border border-gray-700 text-black focus:outline-none ${
                   rowIdx % 3 === 0 && rowIdx !== 0
                     ? "border-t-2 border-gray-500"
                     : ""
