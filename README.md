@@ -20,16 +20,6 @@ Applikationen giver brugeren mulighed for at:
 ---
 [kørende applikation](image-1.png)
 
-
-### Rapport
-Rapporten beskriver projektet på 3-5 sider og inkluderer:
-- Kort beskrivelse af projektet.
-- Oversigt over algoritmer og datastrukturer.
-- Pseudokode for algoritmen.
-- Kompleksitetsanalyse (tid og plads).
-- Kilder og inspiration.
-
-
 ## Sådan kører du projektet lokalt
 
 1. **Klon repository**:
@@ -57,19 +47,6 @@ Applikationen vil nu køre lokalt på [http://localhost:3000](http://localhost:3
 Applikationen er deployet og tilgængelig her:
 [Deployet version](<indsæt-url>)
 
----
-
-## Kompleksitetsanalyse
-- **Tid**: \( O(9^n) \), hvor \( n \) er antallet af tomme felter.
-- **Rum**: \( O(n) \), hvor \( n \) er dybden af rekursion.
-
----
-
-## Inspiration og referencer
-- [Wikipedia: Backtracking](https://en.wikipedia.org/wiki/Backtracking)
-- Dokumentation og videoer fra kurset **Datastrukturer og algoritmer**.
-
----
 
 ## Om udvikleren
 **Udvikler**: Omar Naifeh | omar1907
