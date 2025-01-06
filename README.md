@@ -1,5 +1,3 @@
-# React + TypeScript + Vite
-
 # Sudoku Solver med Backtracking
 
 ## Projektbeskrivelse
